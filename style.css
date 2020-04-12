@@ -95,7 +95,7 @@ hr {
 
 table {
    width:100%;
-   height: 550px;
+   height: 650px;
    padding: 20px 30px 50px 30px;
    margin-bottom: 50px;
 }
@@ -126,4 +126,9 @@ tr td button {
 }
 .ast{
    padding-top:13px;
+}
+.equals{
+   width:150px;
+   height:100%;
+   border-radius: 30%;
 }
