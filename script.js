@@ -1,6 +1,6 @@
-(function calculator() {
+(function() {
    //variables
-   var num, opp, numArr, opArr, screen, history, fill, answer, pressedkey, press, conNumber, total, clear, equals, lastPressedOp;
+   var num, opp, numArr, opArr, screen, history, fill, answer, pressedkey, press, conNumber, total, clear, equals;
    num = document.querySelectorAll('#num');
    opp = document.querySelectorAll('#op');
    screen = document.querySelector('#small');
