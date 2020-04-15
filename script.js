@@ -70,9 +70,9 @@
                total += numArr[n + 1];
             } else if (opArr[n] === '-') {
                total -= numArr[n + 1];
-            } else if (opArr[n] === '*') {
+            } else if (opArr[n] === '×') {
                total *= numArr[n + 1];
-            } else if (opArr[n] === '/') {
+            } else if (opArr[n] === '÷') {
                total /= numArr[n + 1];
             }
          }
