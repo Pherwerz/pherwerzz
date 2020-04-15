@@ -20,6 +20,12 @@
    var button = {
       numbersPress: function(i) {
          num[i].addEventListener('click', function(){
+            if (answer.textContent !== ''){
+               answer.textContent = '';
+               total = 0;
+               screen.textContent = '';
+               pressedkey = '';
+            }
             // 1 save pressed key
             pressedkey += num[i].value;
             press += num[i].value;
